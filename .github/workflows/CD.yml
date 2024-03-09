@@ -31,4 +31,4 @@ jobs:
         run: docker build -t nyt -f Dockerfile .
 
       - name: Push Docker image to registry
-        run: docker push nyt
+        run: docker push arshiaaflaki/nyt
