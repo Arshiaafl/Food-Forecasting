@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Login to DockerHub Registry
-        run: echo ${{ secrets.Ar8569844 }} | docker login -u ${{ secrets.arshiaaflaki }} --password-stdin
+        run: echo ${{ secrets.DOCKER_USERNAME }} | docker login -u ${{ secrets.DOCKER_PASSWORD }} --password-stdin
 
 
       - name: Build Docker image
