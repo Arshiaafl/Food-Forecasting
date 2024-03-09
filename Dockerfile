@@ -2,7 +2,7 @@
 FROM jupyter/base-notebook
 
 # Copy the Jupyter Notebook file into the container
-COPY ["Food Forecasting.ipynp", "./"]
+COPY ["Food Forecasting.ipynb", "./"]
 
 # Install additional dependencies
 RUN pip install matplotlib scikit-learn numpy pandas seaborn datetime tensorflow scipy
