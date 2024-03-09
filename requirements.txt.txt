@@ -1,0 +1,16 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+tensorflow
+plotly
+torch
+matplotlib
+scikit-learn
+numpy
+pandas
+seaborn
+datetime
+tensorflow
+scipy
