@@ -12,7 +12,7 @@ jobs:
 
     env:
       DOCKER_USERNAME: ${{ secrets.arshiaaflaki }}
-      DOCKER_PASSWORD: ${{ secrets.Ar.8569844 }}
+      DOCKER_PASSWORD: ${{ secrets.Ar8569844 }}
 
     steps:
       - name: Checkout code
